@@ -1,0 +1,47 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "MoveBox/1.0.0": {
+        "dependencies": {
+          "ButtonWindow": "1.0.0",
+          "ControlWindow": "1.0.0"
+        },
+        "runtime": {
+          "MoveBox.dll": {}
+        }
+      },
+      "ButtonWindow/1.0.0": {
+        "runtime": {
+          "ButtonWindow.dll": {}
+        }
+      },
+      "ControlWindow/1.0.0": {
+        "runtime": {
+          "ControlWindow.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MoveBox/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ButtonWindow/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "ControlWindow/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

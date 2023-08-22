@@ -1,0 +1,35 @@
+﻿<Window x:Class="ButtonWindow.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ButtonWindow"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Canvas x:Name="myCanvas" Width="100" Height="50">
+            <Grid Width="{Binding ActualWidth, ElementName=myCanvas}" 
+              Height="{Binding ActualHeight, ElementName=myCanvas}">
+                <Button
+                    Width="100"
+                    Height="50"
+                    Background="White" 
+                    VerticalAlignment="Center"
+                    HorizontalAlignment="Center"
+                    FontSize="30"
+                    BorderBrush="Red"
+                    FontWeight="Bold"
+                    Foreground="red"
+                    x:Name="btn">
+                    ស
+                </Button>
+            </Grid>
+            <Canvas.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform x:Name="st" />
+                    <TranslateTransform x:Name="translate" />
+                </TransformGroup>
+            </Canvas.RenderTransform>
+        </Canvas>
+    </Grid>
+</Window>
